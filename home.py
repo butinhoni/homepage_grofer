@@ -15,13 +15,13 @@ col1, col2, col3 = st.columns(3)
 
 col1.title('Relatórios de BI')
 col1.markdown('Te ajudamos a visualizar os resultados da sua empresa de maneira simples através de relatórios de bussiness inteligence')
-col1.image(r'images\report.png', use_container_width = True)
+col1.image(r'images/report.png', use_container_width = True)
 col2.title('Sistemas')
 col2.markdown('Oferecemos controles para os dados da sua empresa através de sistemas modernos e de fácil utilização')
-col2.image(r'images\os.png')
+col2.image(r'images/os.png')
 col3.title('Automação de processos')
 col3.markdown('Automatizamos as tarefas repetitivas para economizar tempo e mão de obra para sua empresa.')
-col3.image(r'images\automation.png')
+col3.image(r'images/automation.png')
 st.divider()
 
 
